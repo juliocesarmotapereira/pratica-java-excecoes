@@ -22,3 +22,5 @@ Material de estudos práticos do Programa ONE da Oracle
 * Checked são criadas através do pertencimento a uma hierarquia que não passe por RuntimeException.
 * Unchecked são criadas como descendentes de RuntimeException.
 
+* Palavras chaves relacionadas com exceções: throw, finally, catch, throws, try.
+* Bloco finally: útil para o fechamento de recursos (como conexão).
