@@ -17,3 +17,8 @@ Material de estudos práticos do Programa ONE da Oracle
 * HEAP (Memória de objetos)
 * Exceções: como lançar e como atribuir uma mensagem. 
 
+* Throwable > Exception > RuntimeException > ArithmeticException > NullPointerException > MinhaException
+* Throwable > Error > VirtualMachineError > StackOverflowError
+* Checked são criadas através do pertencimento a uma hierarquia que não passe por RuntimeException.
+* Unchecked são criadas como descendentes de RuntimeException.
+

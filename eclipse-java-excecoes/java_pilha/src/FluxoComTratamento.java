@@ -7,7 +7,7 @@ public class FluxoComTratamento {
 		// aplicação da mensagem de erro:
 		try {
 			metodo1();
-		} catch (ArithmeticException | NullPointerException ex) {
+		} catch (ArithmeticException | NullPointerException | MinhaExcecao ex) {
 			String msg = ex.getMessage();
 			System.out.println("Exception " + msg);
 			ex.printStackTrace();
@@ -23,9 +23,7 @@ public class FluxoComTratamento {
 
 	private static void metodo2() {
 		System.out.println("Ini do metodo2");
-		
-		ArithmeticException ex = new ArithmeticException("deu errado");
-		throw ex;
+		throw new MinhaExcecao("muito errado");
 		
 		// System.out.println("Fim do metodo2");
 	}
