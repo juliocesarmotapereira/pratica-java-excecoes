@@ -13,3 +13,7 @@ Material de estudos práticos do Programa ONE da Oracle
 * Tratar exceções com os blocos try-catch.
 * Manipular uma exceção lançada dentro do bloco catch.
 * Multi-Catch utilizando o pipe (|).
+
+* HEAP (Memória de objetos)
+* Exceções: como lançar e como atribuir uma mensagem. 
+
